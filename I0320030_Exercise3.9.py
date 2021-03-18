@@ -8,3 +8,10 @@ tup2=('abc','xyz')
 #Jadi,buatlah tuple baru sebagai berikut
 tup3=tup1+tup2
 print(tup3)
+
+#Tuple Baru
+tup1=(64.5,21)
+tup2=('dia','aku')
+
+tup3=tup1+tup2
+print(tup3)
