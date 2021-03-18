@@ -29,7 +29,7 @@ print("Biodata saya setelah menghapus 2 menu makanan favorit adalah: ", dictBiod
 print('\n','-----------------------------------------------------------------------------------------------------','\n')
 
 #Menambahkan satu Hobi
-dictBiodata['Hobi']: 'mendengarkan musik'
+dictBiodata['Hobi']= ['berenang','menonton film','mendengarkan musik']
 print("Biodata saya setelah menambahkan hobi adalah: ", dictBiodata)
 print('\n','-----------------------------------------------------------------------------------------------------','\n')
 
@@ -39,4 +39,4 @@ print("Nama: ", dictBiodata['Nama'])
 print("Hobi: ", dictBiodata['Hobi'])
 print("SosialMedia: ", dictBiodata['SosialMedia'])
 print("Lagu Kesukaan: ", dictBiodata['Lagu Kesukaan'])
-print("Makanan Favorit:",dictBiodata['Makanan Favorit'])
+print("Makanan Favorit: ",dictBiodata['Makanan Favorit'])
