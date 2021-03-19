@@ -18,12 +18,8 @@ list_teman.append('Desy')
 print('list teman saya sekarang: ', list_teman)
 
 #List teman dengan pengulangan
-x = 0
-for y in range (0,12):
-    print(list_teman[x])
-    x = x + 1
+for pengulanganlist in list_teman:
+    print(pengulanganlist)
 
 #Panjang list teman
-print("Semua teman saya adalah : ada",len(list_teman), "orang")
-for panjanglist in list_teman:
-    print(panjanglist)
+print("Jumlah teman saya adalah : ada",len(list_teman), "orang")
