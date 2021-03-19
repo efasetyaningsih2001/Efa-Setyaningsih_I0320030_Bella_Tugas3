@@ -1,6 +1,5 @@
 #Membuat dictionary
 print('\n', '---------------------------------------BIODATA EFA (I0320030)---------------------------------------')
-print('\n', '---------------------------------------------------------------------------------------------------', '\n')
 dictBiodata = {'Nama': 'Efa Setyaningsih',
         'Hobi': ['berenang', 'menonton film', 'main game'],
         'SosialMedia':['line:efa_s',
@@ -10,17 +9,12 @@ dictBiodata = {'Nama': 'Efa Setyaningsih',
         'Makanan Favorit':['martabak', 'nasi goreng', 'sate ayam']
                }
 print(dictBiodata)
-print("Nama: ", dictBiodata['Nama'])
-print("Hobi: ", dictBiodata['Hobi'])
-print("SosialMedia: ", dictBiodata['SosialMedia'])
-print("Lagu Kesukaan: ", dictBiodata['Lagu Kesukaan'])
-print("Makanan Favorit:", dictBiodata['Makanan Favorit'])
 print('\n', '-----------------------------------------------------------------------------------------------------', '\n')
 
 #Mengganti satu hobi dan sosial media
 dictBiodata['Hobi'][2] = 'bersepeda'
 dictBiodata['SosialMedia'][2] = 'WA:087836227881'
-print("Biodata saya setelah menghapus salah satu hobi dan sosial media adalah: ", dictBiodata)
+print("Biodata saya setelah mengganti salah satu hobi dan sosial media adalah: ", dictBiodata)
 print('\n', '-----------------------------------------------------------------------------------------------------', '\n')
 
 #Menghilangkan makanan favorit
